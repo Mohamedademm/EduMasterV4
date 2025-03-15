@@ -1,0 +1,92 @@
+/* General container for course creation page */
+.create-course-containerCreeC {
+  background-color: #f4f7fa;
+  padding: 30px;
+  font-family: Arial, sans-serif;
+  max-width: 600px;
+  margin: 0 auto;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 28px;
+  color: #093B3B;
+  margin-bottom: 20px;
+}
+
+/* Form input groups */
+.input-groupCreeC {
+  margin-bottom: 15px;
+}
+
+.input-groupCreeC label {
+  display: block;
+  font-size: 14px;
+  color: #136E61;
+  margin-bottom: 8px;
+}
+
+.input-groupCreeC input {
+  padding: 10px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.input-groupCreeC input[type="file"] {
+  padding: 0;
+  border: none;
+  background-color: #f4f7fa;
+}
+
+/* Button Styles */
+button {
+  padding: 12px 20px;
+  background-color: #EAF141;
+  color: #22093B;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 5px;
+  margin-top: 15px;
+  width: auto;
+}
+
+button:hover {
+  background-color: #136E61;
+  color: white;
+}
+
+/* Image preview */
+.img-preview {
+  margin-top: 15px;
+  display: block;
+  max-width: 100%;
+  border-radius: 5px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Save Draft Button */
+.save-draft {
+  background-color: #22093B;
+  color: #fff;
+}
+
+.save-draft:hover {
+  background-color: #093B3B;
+}
+
+.alert {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  margin-top: 20px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.alert.error {
+  background-color: #f44336;
+}

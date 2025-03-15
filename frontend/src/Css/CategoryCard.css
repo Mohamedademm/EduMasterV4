@@ -1,0 +1,75 @@
+.courseCardCoureseCrourseCD {
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 10%;
+  margin: 10%;
+  text-align: center;
+  width: auto;
+  height: auto;
+  transition: transform 0.3s ease-in-out;
+}
+
+.courseCardCoureseCrourseCD:hover {
+  transform: translateY(-5px);
+}
+
+.courseImageCCCrourseCD {
+  width: 80%;
+  height: 160px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.courseTitleCCCrourseCD {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  margin: 10px 0;
+}
+
+.instructorCCCrourseCD {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 0;
+}
+
+.instructorAvatarCCCrourseCD {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+  border: 2px solid #136E61;
+}
+
+.instructorNameCCCrourseCD {
+  font-size: 14px;
+  font-weight: 500;
+  color: #555;
+}
+
+.progressBarCCCrourseCD {
+  width: 100%;
+  height: 8px;
+  background: #eee;
+  border-radius: 4px;
+  margin: 15px 0;
+  overflow: hidden;
+}
+
+.progressFillCCCrourseCD {
+  height: 100%;
+  background: #136E61;
+  transition: width 0.4s ease-in-out;
+}
+
+.lessonCountCCCrourseCD {
+  font-size: 12px;
+  width:100% ;
+  color: #136E61;
+  display: block;
+  margin-top: 15px;
+  padding: auto;
+}

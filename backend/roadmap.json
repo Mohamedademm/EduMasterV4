@@ -1,0 +1,206 @@
+[
+  {
+    "title": "[Frontend Roadmap](https://roadmap.sh/frontend) / [Frontend Beginner Roadmap](https://roadmap.sh/frontend?r=frontend-beginner)"
+  },
+  {
+    "title": "[Backend Roadmap](https://roadmap.sh/backend) / [Backend Beginner Roadmap](https://roadmap.sh/backend?r=backend-beginner)"
+  },
+  {
+    "title": "[DevOps Roadmap](https://roadmap.sh/devops) / [DevOps Beginner Roadmap](https://roadmap.sh/devops?r=devops-beginner)"
+  },
+  {
+    "title": "[Full Stack Roadmap](https://roadmap.sh/full-stack)"
+  },
+  {
+    "title": "[Git and GitHub](https://roadmap.sh/git-github)"
+  },
+  {
+    "title": "[API Design Roadmap](https://roadmap.sh/api-design)"
+  },
+  {
+    "title": "[Computer Science Roadmap](https://roadmap.sh/computer-science)"
+  },
+  {
+    "title": "[Data Structures and Algorithms Roadmap](https://roadmap.sh/datastructures-and-algorithms)"
+  },
+  {
+    "title": "[AI and Data Scientist Roadmap](https://roadmap.sh/ai-data-scientist)"
+  },
+  {
+    "title": "[AI Engineer Roadmap](https://roadmap.sh/ai-engineer)"
+  },
+  {
+    "title": "[AWS Roadmap](https://roadmap.sh/aws)"
+  },
+  {
+    "title": "[Cloudflare Roadmap](https://roadmap.sh/cloudflare)"
+  },
+  {
+    "title": "[Linux Roadmap](https://roadmap.sh/linux)"
+  },
+  {
+    "title": "[Terraform Roadmap](https://roadmap.sh/terraform)"
+  },
+  {
+    "title": "[Data Analyst Roadmap](https://roadmap.sh/data-analyst)"
+  },
+  {
+    "title": "[MLOps Roadmap](https://roadmap.sh/mlops)"
+  },
+  {
+    "title": "[Product Manager Roadmap](https://roadmap.sh/product-manager)"
+  },
+  {
+    "title": "[Engineering Manager Roadmap](https://roadmap.sh/engineering-manager)"
+  },
+  {
+    "title": "[QA Roadmap](https://roadmap.sh/qa)"
+  },
+  {
+    "title": "[Python Roadmap](https://roadmap.sh/python)"
+  },
+  {
+    "title": "[Software Architect Roadmap](https://roadmap.sh/software-architect)"
+  },
+  {
+    "title": "[Game Developer Roadmap](https://roadmap.sh/game-developer) / [Server Side Game Developer](https://roadmap.sh/server-side-game-developer)"
+  },
+  {
+    "title": "[Software Design and Architecture Roadmap](https://roadmap.sh/software-design-architecture)"
+  },
+  {
+    "title": "[JavaScript Roadmap](https://roadmap.sh/javascript)"
+  },
+  {
+    "title": "[TypeScript Roadmap](https://roadmap.sh/typescript)"
+  },
+  {
+    "title": "[C++ Roadmap](https://roadmap.sh/cpp)"
+  },
+  {
+    "title": "[React Roadmap](https://roadmap.sh/react)"
+  },
+  {
+    "title": "[React Native Roadmap](https://roadmap.sh/react-native)"
+  },
+  {
+    "title": "[Vue Roadmap](https://roadmap.sh/vue)"
+  },
+  {
+    "title": "[Angular Roadmap](https://roadmap.sh/angular)"
+  },
+  {
+    "title": "[Node.js Roadmap](https://roadmap.sh/nodejs)"
+  },
+  {
+    "title": "[PHP Roadmap](https://roadmap.sh/php)"
+  },
+  {
+    "title": "[GraphQL Roadmap](https://roadmap.sh/graphql)"
+  },
+  {
+    "title": "[Android Roadmap](https://roadmap.sh/android)"
+  },
+  {
+    "title": "[iOS Roadmap](https://roadmap.sh/ios)"
+  },
+  {
+    "title": "[Flutter Roadmap](https://roadmap.sh/flutter)"
+  },
+  {
+    "title": "[Go Roadmap](https://roadmap.sh/golang)"
+  },
+  {
+    "title": "[Rust Roadmap](https://roadmap.sh/rust)"
+  },
+  {
+    "title": "[Java Roadmap](https://roadmap.sh/java)"
+  },
+  {
+    "title": "[Spring Boot Roadmap](https://roadmap.sh/spring-boot)"
+  },
+  {
+    "title": "[Design System Roadmap](https://roadmap.sh/design-system)"
+  },
+  {
+    "title": "[PostgreSQL Roadmap](https://roadmap.sh/postgresql-dba)"
+  },
+  {
+    "title": "[SQL Roadmap](https://roadmap.sh/sql)"
+  },
+  {
+    "title": "[Redis Roadmap](https://roadmap.sh/redis)"
+  },
+  {
+    "title": "[Blockchain Roadmap](https://roadmap.sh/blockchain)"
+  },
+  {
+    "title": "[ASP.NET Core Roadmap](https://roadmap.sh/aspnet-core)"
+  },
+  {
+    "title": "[System Design Roadmap](https://roadmap.sh/system-design)"
+  },
+  {
+    "title": "[Kubernetes Roadmap](https://roadmap.sh/kubernetes)"
+  },
+  {
+    "title": "[Cyber Security Roadmap](https://roadmap.sh/cyber-security)"
+  },
+  {
+    "title": "[MongoDB Roadmap](https://roadmap.sh/mongodb)"
+  },
+  {
+    "title": "[UX Design Roadmap](https://roadmap.sh/ux-design)"
+  },
+  {
+    "title": "[Docker Roadmap](https://roadmap.sh/docker)"
+  },
+  {
+    "title": "[Prompt Engineering Roadmap](https://roadmap.sh/prompt-engineering)"
+  },
+  {
+    "title": "[Technical Writer Roadmap](https://roadmap.sh/technical-writer)"
+  },
+  {
+    "title": "[DevRel Engineer Roadmap](https://roadmap.sh/devrel)"
+  },
+  {
+    "title": "[Backend Performance Best Practices](https://roadmap.sh/best-practices/backend-performance)"
+  },
+  {
+    "title": "[Frontend Performance Best Practices](https://roadmap.sh/best-practices/frontend-performance)"
+  },
+  {
+    "title": "[Code Review Best Practices](https://roadmap.sh/best-practices/code-review)"
+  },
+  {
+    "title": "[API Security Best Practices](https://roadmap.sh/best-practices/api-security)"
+  },
+  {
+    "title": "[AWS Best Practices](https://roadmap.sh/best-practices/aws)"
+  },
+  {
+    "title": "[JavaScript Questions](https://roadmap.sh/questions/javascript)"
+  },
+  {
+    "title": "[Node.js Questions](https://roadmap.sh/questions/nodejs)"
+  },
+  {
+    "title": "[React Questions](https://roadmap.sh/questions/react)"
+  },
+  {
+    "title": "[Backend Questions](https://roadmap.sh/questions/backend)"
+  },
+  {
+    "title": "[Frontend Questions](https://roadmap.sh/questions/frontend)"
+  },
+  {
+    "title": "Add content to roadmaps"
+  },
+  {
+    "title": "Add new roadmaps"
+  },
+  {
+    "title": "Suggest changes to existing roadmaps"
+  }
+]

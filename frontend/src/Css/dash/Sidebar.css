@@ -1,0 +1,55 @@
+.sidebarSideBar {
+  background: linear-gradient(-90deg, #000000aa, #333); /* Black gradient */
+
+  width: 18%;
+  padding-top: 10%;
+  padding: 20px;
+  color: #010101;
+  position: fixed;
+  height: 100%;
+}
+
+.logoSideBar {
+  font-size: 24px;
+  font-weight: 700;
+  color: #8e8ac0;
+  margin-bottom: 30px;
+}
+
+.navSideBar ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column; /* Assure que les éléments sont alignés verticalement */
+}
+
+.navSideBar li {
+  margin-bottom: 15px;
+}
+
+.navLinkSideBar {
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 8px;
+  width: 100%;
+}
+
+.navLinkSideBar.active {
+  background-color: #136e61;
+}
+
+.iconSideBar {
+  width: 20px;
+  height: 20px;
+  margin-right: 12px;
+}
+
+@media (max-width: 991px) {
+  .sidebarSideBar {
+    width: 20%;
+    padding-bottom: 20px;
+  }
+}

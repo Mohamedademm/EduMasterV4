@@ -1,0 +1,358 @@
+/* careers.css */
+
+/* Scroll Smooth */
+html {
+    scroll-behavior: smooth;
+  }
+  
+  /* Careers Page Global Styles */
+  .careers-page {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--gray3-color);
+    color: var(--Gray1-color);
+  }
+  
+  /* Header */
+  .careers-header-container {
+    background-color: var(--Primary900-color);
+    color: var(--White-color);
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .careers-logo img {
+    width: 50px;
+    height: auto;
+  }
+  .careers-header-container h1 {
+    font-size: 1.8rem;
+    margin: 0 1rem;
+    flex: 1;
+  }
+  .careers-header-container nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+  }
+  .careers-header-container nav ul li a {
+    color: var(--White-color);
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  .careers-header-container nav ul li a:hover {
+    color: var(--Secondary2-color);
+  }
+  .careers-search-bar input {
+    padding: 0.5rem;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  /* Hero Section */
+  .careers-hero {
+    background: url('../images/background-photo.jpg') center/cover no-repeat;
+    height: 300px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .careers-overlay {
+    background: rgba(9, 59, 59, 0.7);
+    padding: 2rem;
+    text-align: center;
+    width: 100%;
+  }
+  .careers-overlay h2 {
+    font-size: 2rem;
+    color: var(--White-color);
+    margin-bottom: 1rem;
+  }
+  .careers-overlay p {
+    font-size: 1rem;
+    color: var(--White-color);
+    margin-bottom: 1.5rem;
+  }
+  .careers-cta-btn {
+    background-color: var(--Secondary2-color);
+    color: var(--White-color);
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+  .careers-cta-btn:hover {
+    background-color: var(--Secondary1-color);
+  }
+  
+  /* Main Content */
+  .careers-content {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+  }
+  
+  /* Job List Section */
+  .careers-job-list h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+  }
+  .job-offers {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+  }
+  .job-offer {
+    background-color: var(--White-color);
+    padding: 1rem;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px var(--shadow-color);
+  }
+  .job-offer h3 {
+    font-size: 1.4rem;
+    margin-bottom: 0.5rem;
+  }
+  .job-offer p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  .btn-job-detail {
+    background-color: var(--Primary700-color);
+    color: var(--White-color);
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+  .btn-job-detail:hover {
+    background-color: var(--Primary800-color);
+  }
+  
+  /* Culture Section */
+  .careers-culture {
+    background-color: var(--White-color);
+    padding: 1rem;
+    border-radius: 4px;
+    margin-bottom: 2rem;
+    box-shadow: 0 2px 4px var(--shadow-color);
+  }
+  .careers-culture h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+  }
+  .careers-culture p {
+    font-size: 1rem;
+  }
+  
+  /* Benefits Section */
+  .careers-benefits {
+    background-color: var(--White-color);
+    padding: 1rem;
+    border-radius: 4px;
+    margin-bottom: 2rem;
+    box-shadow: 0 2px 4px var(--shadow-color);
+  }
+  .careers-benefits h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+  }
+  .careers-benefits ul {
+    list-style: none;
+    padding-left: 1rem;
+  }
+  .careers-benefits ul li {
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+  }
+  
+  /* Process Section */
+  .careers-process {
+    background-color: var(--White-color);
+    padding: 1rem;
+    border-radius: 4px;
+    margin-bottom: 2rem;
+    box-shadow: 0 2px 4px var(--shadow-color);
+  }
+  .careers-process h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+  }
+  .careers-process ol {
+    padding-left: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  .careers-process p {
+    font-size: 1rem;
+  }
+  
+  /* FAQ Section */
+  .careers-faq {
+    background-color: var(--White-color);
+    padding: 1rem;
+    border-radius: 4px;
+    margin-bottom: 2rem;
+    box-shadow: 0 2px 4px var(--shadow-color);
+  }
+  .careers-faq h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+  }
+  .faq-item {
+    margin-bottom: 1rem;
+  }
+  .faq-question {
+    background-color: var(--Primary700-color);
+    color: var(--White-color);
+    padding: 0.5rem;
+    width: 100%;
+    text-align: left;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+  .faq-question:hover {
+    background-color: var(--Primary800-color);
+  }
+  .faq-answer {
+    padding: 0.5rem 1rem;
+    border-left: 3px solid var(--Primary700-color);
+    margin-top: 0.5rem;
+  }
+  
+  /* Application Form */
+  .careers-application {
+    background-color: var(--White-color);
+    padding: 1rem;
+    border-radius: 4px;
+    margin-bottom: 2rem;
+    box-shadow: 0 2px 4px var(--shadow-color);
+  }
+  .careers-application h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+  }
+  .careers-application form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .careers-application form label {
+    font-weight: bold;
+    font-size: 1rem;
+  }
+  .careers-application form input,
+  .careers-application form textarea,
+  .careers-application form input[type="file"] {
+    padding: 0.5rem;
+    border: 1px solid var(--gray2-color);
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+  .btn-submit-application {
+    background-color: var(--Secondary2-color);
+    color: var(--White-color);
+    padding: 0.75rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  .btn-submit-application:hover {
+    background-color: var(--Secondary1-color);
+  }
+  
+  /* Footer */
+  .careers-footer-content {
+    background-color: var(--Primary900-color);
+    color: var(--White-color);
+    padding: 1rem;
+    text-align: center;
+  }
+  .careers-footer-nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    margin-bottom: 1rem;
+  }
+  .careers-footer-nav ul li a {
+    color: var(--White-color);
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  .careers-footer-nav ul li a:hover {
+    color: var(--Secondary2-color);
+  }
+  .careers-legal a {
+    color: var(--White-color);
+    text-decoration: none;
+    margin: 0 0.5rem;
+    transition: color 0.3s;
+  }
+  .careers-legal a:hover {
+    color: var(--Secondary2-color);
+  }
+  .careers-social-media a {
+    margin: 0 0.5rem;
+    display: inline-block;
+    transition: transform 0.3s;
+  }
+  .careers-social-media a:hover {
+    transform: scale(1.1);
+  }
+  .careers-social-media img {
+    width: 24px;
+    height: 24px;
+  }
+  
+  /* Career Detail Page Specific Styles */
+  .career-detail-page {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--gray3-color);
+    color: var(--Gray1-color);
+    padding: 1rem;
+  }
+  .career-detail-header {
+    background-color: var(--Primary900-color);
+    color: var(--White-color);
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .career-detail-logo img {
+    width: 50px;
+    height: auto;
+  }
+  .career-detail-header h1 {
+    font-size: 1.8rem;
+    margin-left: 1rem;
+  }
+  .career-detail-content {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+  }
+  .career-detail-description,
+  .career-detail-apply {
+    background-color: var(--White-color);
+    padding: 1rem;
+    border-radius: 4px;
+    margin-bottom: 2rem;
+    box-shadow: 0 2px 4px var(--shadow-color);
+  }
+  .career-detail-description h2,
+  .career-detail-apply h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+  }
+  .career-detail-footer {
+    background-color: var(--Primary900-color);
+    color: var(--White-color);
+    padding: 1rem;
+    text-align: center;
+  }
+  

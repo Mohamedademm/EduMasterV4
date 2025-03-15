@@ -1,0 +1,115 @@
+html, body {
+  overflow: auto;
+  scrollbar-gutter: stable both-edges; /* Maintient la stabilité du layout */
+  margin: 0;
+  /*font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; */
+}
+
+/* Styles pour le code */
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+/* Variables par défaut déjà définies dans index.css */
+:root {
+  --Primary900-color: #093B3B;
+  --Primary800-color: #295959;
+  --Primary700-color: #136E61;
+  --Secondary1-color: #22093B;
+  --Secondary2-color: #EAF141;
+  --Secondary3-color: #CCDDBE;
+  --Gray1-color: #1F1F1F;
+  --gray2-color: #BACAC7;
+  --gray3-color: #E8F6F3;
+  --White-color: #FFFFFF;
+}
+
+/* Styles pour le mode sombre */
+body.dark-mode {
+  /* On peut redéfinir les variables pour le mode sombre */
+  --Primary900-color: #051F1F;
+  --Primary800-color: #164242;
+  --Primary700-color: #0D4F47;
+  --Secondary1-color: #150627;
+  --Secondary2-color: #C8D210;
+  --Secondary3-color: #A8B89E;
+  --Gray1-color: #121212;
+  --gray2-color: #8A9A97;
+  --gray3-color: #1E2A28;
+  --White-color: #000000;
+  
+  /* Exemple d'override de fond et texte */
+  background-color: var(--Primary900-color);
+  color: var(--Gray1-color);
+}
+
+
+
+/* Dashboard Specific Colors */
+:root {
+  --primary-color: #d67070;
+  --secondary-color: #2a2a2a;
+  --hover-color: #ff8585;
+  --text-color: #fff;
+  --background-color: #333;
+  --shadow-color: rgba(0, 0, 0, 0.1);
+}
+
+/* Success Colors */
+:root {
+  --success-dark900: #3B6506;
+  --success-dark800: #4C7A0B;
+  --success-dark700: #659711;
+  --success-dark600: #7FB519;
+  --success-default500: #9CD323;
+  --success-light400: #BCE455;
+  --success-light300: #D3F178;
+  --success-light200: #E8FAA6;
+  --success-light100: #F5FCD2;
+}
+
+/* Error Colors */
+:root {
+  --error-dark900: #7A0619;
+  --error-dark800: #930B16;
+  --error-dark700: #B71112;
+  --error-dark600: #DB2719;
+  --error-default500: #FF4423;
+  --error-light400: #FF7F59;
+  --error-light300: #FFA37A;
+  --error-light200: #FFC8A6;
+  --error-light100: #FFE7D3;
+}
+
+
+/* Information Colors */
+:root {
+  --info-dark900: #102E7A;
+  --info-dark800: #1A4393;
+  --info-dark700: #2A60B7;
+  --info-dark600: #3D81DB;
+  --info-default500: #54A6FF;
+  --info-light400: #7EC2FF;
+  --info-light300: #98D3FF;
+  --info-light200: #BAE5FF;
+  --info-light100: #DCF3FF;
+}
+
+
+
+/* Scrollbar styles pour Chrome, Safari et autres navigateurs Webkit */
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(136, 136, 136, 0.5); /* Semi-transparent */
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(85, 85, 85, 0.8);
+}

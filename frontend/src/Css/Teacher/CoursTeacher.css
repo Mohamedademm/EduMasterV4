@@ -1,0 +1,148 @@
+/* CoursTeacher.css */
+.cours-teacher-container-CoursTeacher {
+    padding: 20px;
+}
+
+.course-card-CoursTeacher {
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+
+.course-actions-CoursTeacher {
+    margin-top: 20px;
+}
+
+.btn-edit-CoursTeacher,
+.btn-delete-CoursTeacher,
+.btn-add-course-CoursTeacher {
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.btn-add-course-CoursTeacher {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.btn-edit-CoursTeacher {
+    background-color: #FFA500;
+    color: white;
+}
+
+.btn-delete-CoursTeacher {
+    background-color: #F44336;
+    color: white;
+}
+
+.modal-CoursTeacher {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content-CoursTeacher {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 60%;
+    max-height: 90%;
+}
+
+.form-groupT-CoursTeacher {
+    margin-bottom: 6px;
+}
+
+.modal-actions-CoursTeacher {
+    display: flex;
+    justify-content: space-between;
+}
+
+input[type="file"] {
+    display: block;
+    margin-top: 8px;
+    padding: 5px;
+}
+
+textarea {
+    width: 90%;
+    padding: 8px;
+    margin-top: 5px;
+}
+
+input[type="text"] {
+    width: 90%;
+    padding: 8px;
+}
+
+button {
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+button[type="submit"],
+.btn-submit-CoursTeacher {
+    background-color: #4CAF50;
+    color: white;
+    size: 5px;
+}
+
+button[type="button"],
+.btn-cancel-CoursTeacher {
+    background-color: #f44336;
+    color: white;
+}
+
+/* Interactive Content */
+.file-upload-section-CoursTeacher {
+    margin-top: 18px;
+}
+
+.file-upload-section-CoursTeacher input[type="file"] {
+    padding: 5px;
+}
+
+.quiz-section-CoursTeacher {
+    margin-top: 25px;
+}
+
+.quiz-section-CoursTeacher .quiz-question-CoursTeacher {
+    margin-bottom: 8px;
+}
+
+.quiz-section-CoursTeacher input[type="radio"] {
+    margin-right: 8px;
+}
+
+.annotations-section-CoursTeacher {
+    margin-top: 18px;
+}
+
+.annotations-section-CoursTeacher textarea {
+    width: 100%;
+    height: 75px;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.annotations-section-CoursTeacher .add-annotation-btn-CoursTeacher {
+    background-color: #008CBA;
+    color: white;
+    padding: 8px;
+    margin-top: 8px;
+    cursor: pointer;
+}
+
+.annotations-section-CoursTeacher .add-annotation-btn-CoursTeacher:hover {
+    background-color: #005f73;
+}

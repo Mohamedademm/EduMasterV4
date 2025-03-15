@@ -1,0 +1,77 @@
+.popularCourseCard {
+    border-radius: 12px;
+    background-color: rgba(19, 110, 97, 1);
+    overflow: hidden;
+    flex: 1;
+  }
+  
+  .courseImage {
+    width: 100%;
+    aspect-ratio: 1.8;
+    object-fit: cover;
+  }
+  
+  .courseInfo {
+    padding: 25px 24px;
+  }
+  
+  .courseTitle {
+    color:var(--White-color);
+    font: 700 20px/1 Inter, sans-serif;
+    margin-bottom: 15px;
+  }
+  
+  .instructorInfo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 16px;
+  }
+  
+  .instructorAvatar {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .instructorName {
+    color: #010101;
+    font: 400 16px/1 Inter, sans-serif;
+  }
+  
+  .courseStats {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .ratingContainer {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+  }
+  
+  .ratingIcon {
+    width: 18px;
+    height: 16px;
+  }
+  
+  .ratingText {
+    color: #010101;
+    font: 400 16px/1 Inter, sans-serif;
+  }
+  
+  .startLearningButton {
+    color: #010100;
+    font: 400 16px Inter, sans-serif;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  @media (max-width: 991px) {
+    .popularCourseCard {
+      margin-top: 40px;
+    }
+  }

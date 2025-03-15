@@ -1,0 +1,7 @@
+.gestion-profil {
+    padding: 20px;
+    background: linear-gradient(135deg, var(--Secondary3-color) 0%, var(--Primary700-color) 99%);
+  
+    border: 1px solid var(--gray2-color);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }

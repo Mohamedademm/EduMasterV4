@@ -1,0 +1,201 @@
+.section3 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.recentStudents {
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  padding: 20px;
+  width: 100%;
+}
+
+.sectionHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.sectionHeader h2 {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.viewAllButton {
+  background-color: transparent;
+  border: none;
+  color: #136e61;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.studentsTable {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.studentsTable th,
+.studentsTable td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.studentsTable th {
+  font-weight: 600;
+  color: #6b7280;
+}
+
+.studentInfo {
+  display: flex;
+  align-items: center;
+}
+
+.studentAvatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  margin-right: 12px;
+}
+
+.progressBar {
+  background-color: #e5e7eb;
+  border-radius: 9999px;
+  height: 8px;
+  width: 100%;
+}
+
+.progressFill {
+  background-color: #136e61;
+  border-radius: 9999px;
+  height: 100%;
+}
+
+.viewDetailsButton {
+  background-color: transparent;
+  border: none;
+  color: #136e61;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.instructorCard,
+.courseCard {
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  padding: 20px;
+  width: calc(100% );
+}
+
+.instructorInfo {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.instructorAvatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  margin-right: 16px;
+}
+
+.instructorInfo h3 {
+  font-size: 16px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.instructorInfo p {
+  color: #6b7280;
+  margin: 4px 0 0;
+}
+
+.instructorStats {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+
+.instructorStats div {
+  display: flex;
+  align-items: center;
+}
+
+.statIcon {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+}
+
+.viewProfileButton {
+  background-color: transparent;
+  border: 1px solid #136e61;
+  color: #136e61;
+  cursor: pointer;
+  font-weight: 500;
+  padding: 8px 16px;
+  border-radius: 8px;
+  width: 100%;
+}
+
+.courseImage {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 16px;
+}
+
+.courseCard h3 {
+  font-size: 16px;
+  font-weight: 700;
+  margin: 0 0 12px;
+}
+
+.courseFooter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 16px;
+}
+
+.exploreButton {
+  background-color: #136e61;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+  font-weight: 500;
+  padding: 8px 16px;
+  border-radius: 8px;
+}
+
+@media (max-width: 991px) {
+  .instructorCard,
+  .courseCard {
+    width: 100%;
+  }
+}
+
+@media (max-width: 640px) {
+  .studentsTable {
+    font-size: 14px;
+  }
+  
+  .studentsTable th,
+  .studentsTable td {
+    padding: 8px;
+  }
+  
+  .studentAvatar {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+  }
+  
+  .viewDetailsButton {
+    font-size: 12px;
+  }
+}

@@ -1,0 +1,62 @@
+/* D_Sidebar.css */
+.custom-sidebar {
+  width: 240px;
+  background-color: #333;
+  height: 100vh;
+  padding-top: 20px;
+  box-shadow: 2px 0 6px rgba(0, 0, 0, 0.3);
+}
+
+.sidebar-item {
+  margin: 0;
+}
+
+.sidebar-link {
+  color: #fff;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.sidebar-link:hover {
+  background-color: #4b118e;
+  color: #fff;
+}
+
+.sidebar-link.active {
+  background-color: #395e82;
+  font-weight: bold;
+}
+
+.sidebar-icon {
+  color: #fff;
+}
+
+.sidebar-text {
+  color: #fff;
+  font-weight: 500;
+}
+
+.sidebar-text:hover {
+  font-weight: 600;
+}
+
+.sidebar-link .MuiListItemText-primary {
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.sidebar-link .MuiListItemIcon-root {
+  min-width: 40px;
+}
+
+.sidebar-link.active .MuiListItemIcon-root {
+  color: #e73838;
+}
+
+/* Optional: Add custom styling for specific list items */
+.sidebar-link:nth-child(1) {
+  background-color: #221f22; /* Example for Dashboard */
+}
+
+.sidebar-link:nth-child(2) {
+  background-color: #8bc34a; /* Example for Teachers */
+}

@@ -1,0 +1,39 @@
+.popularCoursesSection {
+    background-color: rgba(41, 89, 89, 1);
+    padding: 76px 46px;
+  }
+  
+  .popularCoursesContainer {
+    max-width: 1204px;
+    margin: 0 auto;
+    padding: 0 24px;
+  }
+  
+  .popularCoursesTitle {
+    color: #010101;
+    font: 700 30px/1 Inter, sans-serif;
+    margin-bottom: 64px;
+  }
+  
+  .courseCardContainer {
+    display: flex;
+    gap: 20px;
+  }
+  
+  @media (max-width: 991px) {
+    .popularCoursesSection {
+      padding: 40px 20px;
+    }
+  
+    .popularCoursesContainer {
+      padding: 0;
+    }
+  
+    .popularCoursesTitle {
+      margin-bottom: 40px;
+    }
+  
+    .courseCardContainer {
+      flex-direction: column;
+    }
+  }

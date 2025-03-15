@@ -1,0 +1,27 @@
+.dashboard {
+  display: flex;
+  background-color: #f8fafb;
+  min-height: 100vh;
+  
+}
+
+/* Main content is arranged vertically */
+.mainContent {
+  flex: 1;
+  margin-left: 18%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Section1 will appear at the top, Section2 in the middle */
+/* Section3 is pushed to the bottom of the page */
+.section3 {
+  margin-top: auto;
+}
+
+@media (max-width: 991px) {
+  .dashboard {
+    flex-direction: column;
+  }
+}

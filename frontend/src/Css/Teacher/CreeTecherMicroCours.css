@@ -1,0 +1,179 @@
+/* Style général pour la page */
+.creeMicroCours {
+  display: flex;
+  font-family: Arial, sans-serif;
+  min-height: 100vh;
+}
+
+.sidebar {
+  width: 250px;
+  background-color: #136E61;
+  color: white;
+  padding: 20px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.sidebar.closed {
+  transform: translateX(-100%);
+}
+
+.sidebar.open {
+  transform: translateX(0);
+}
+
+.sidebar .toggleSidebar {
+  background-color: #136E61;
+  color: white;
+  border: none;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.sidebar h3 {
+  margin-top: 0;
+  text-align: center;
+}
+
+.sidebar input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 4px;
+}
+
+.microCourseList {
+  margin-top: 10px;
+}
+
+.microCourseItem {
+  padding: 10px;
+  background-color: #EAF141;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.microCourseItem:hover {
+  background-color: #22093B;
+}
+
+.microCourseItem.selected {
+  background-color: #093B3B;
+}
+
+.microCourseContent {
+  flex: 1;
+  padding: 20px;
+  background-color: #F9F9F9;
+}
+
+.microCourseContent h3 {
+  color: #136E61;
+}
+
+.microCourseContent p {
+  margin-bottom: 10px;
+}
+
+.microCourseContent button {
+  background-color: #136E61;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.microCourseContent button:hover {
+  background-color: #093B3B;
+}
+
+.newMicroCourse {
+  width: 350px;
+  background-color: #FFFFFF;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+}
+
+.newMicroCourse h3 {
+  color: #136E61;
+  margin-top: 0;
+}
+
+.formGroup {
+  margin-bottom: 15px;
+}
+
+.formGroup label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.formGroup input,
+.formGroup select,
+.formGroup textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.formGroup textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+button {
+  background-color: #136E61;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #093B3B;
+}
+
+.microCourseContent a {
+  color: #136E61;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.microCourseContent a:hover {
+  text-decoration: underline;
+}
+
+/* Mobile responsive styles */
+@media (max-width: 768px) {
+  .creeMicroCours {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    position: absolute;
+    z-index: 10;
+    height: 100vh;
+  }
+
+  .microCourseContent {
+    margin-left: 0;
+  }
+
+  .newMicroCourse {
+    width: 100%;
+    margin: 20px 0;
+  }
+}
+

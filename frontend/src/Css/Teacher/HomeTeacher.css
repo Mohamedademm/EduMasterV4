@@ -1,0 +1,154 @@
+/* Style général */
+.home-teacher {
+    background: var(--Primary900-color);
+    color: var(--White-color);
+    font-family: "Arial", sans-serif;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Header */
+  .header {
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  .header h1 {
+    font-size: 2.5rem;
+    color: #000000;
+  }
+  
+  .header p {
+    font-size: 1.2rem;
+    opacity: 0.8;
+  }
+  
+  .evaluations  {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+  }
+  
+  .card {
+    background: var(--Primary700-color);
+    padding: 20px;
+    border-radius: 12px;
+    width: 200px;
+    height: 40%;
+    text-align: center;
+    box-shadow: 0px 4px 10px var(--shadow-color);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .icon {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  /* Cours */
+  .courses {
+    margin-bottom: 30px;
+  }
+  
+  .course-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .course-cardHomeTeacher {
+    background: var(--Secondary1-color);
+    padding: 15px;
+    border-radius: 10px;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0px 4px 10px var(--shadow-color);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .course-cardHomeTeacher:hover {
+    transform: scale(1.05);
+  }
+  
+  .course-icon {
+    font-size: 2rem;
+    color: var(--Secondary2-color);
+  }
+  
+  .progress-bar {
+    background: var(--Secondary3-color);
+    border-radius: 10px;
+    overflow: hidden;
+    height: 10px;
+    margin-top: 10px;
+  }
+  
+  .progress {
+    background: var(--Secondary2-color);
+    height: 100%;
+    transition: width 0.5s ease-in-out;
+  }
+  
+  /* Notifications */
+  .notificationsHomeTeacher ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .notificationsHomeTeacher li {
+    background: var(--Secondary2-color);
+    color: var(--Secondary1-color);
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: bold;
+  }
+  
+  .notif-icon {
+    font-size: 1.5rem;
+  }
+  
+  /* Accès rapide */
+  .quick-access .buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+  }
+  
+  .btnHomeTeacher {
+    background: var(--Primary700-color);
+    color: var(--White-color);
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: background 0.3s ease-in-out;
+  }
+  
+  .btnHomeTeacher:hover {
+    background: var(--Primary900-color);
+  }
+  
+  /* Animations */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  

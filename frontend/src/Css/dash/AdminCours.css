@@ -1,0 +1,240 @@
+.AdminCours {
+  display: flex;
+  background-color: #f8fafb;
+  min-height: 100vh;
+}
+
+/* Main content is arranged vertically */
+.AdminCoursSection {
+  flex: 1;
+  padding: 20px;
+  padding-left: 20%;
+  display: flex;
+  width: 80%;
+  flex-direction: column;
+}
+
+/* En-tête */
+.adminHeader {
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-bottom: 1rem;
+}
+
+.adminHeader h2 {
+margin: 0;
+font-size: 2rem;
+}
+
+.headerButtons {
+display: flex;
+gap: 0.5rem;
+}
+
+.newCourseBtn,
+.helpBtn {
+padding: 0.5rem 1rem;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+font-size: 1rem;
+}
+
+.newCourseBtn {
+background-color: #007bff;
+color: #fff;
+}
+
+.helpBtn {
+background-color: #28a745;
+color: #fff;
+}
+
+/* Messages */
+.successMsg,
+.errorMsg {
+margin-bottom: 1rem;
+font-size: 1rem;
+padding: 0.5rem;
+border-radius: 4px;
+}
+
+.successMsg {
+color: green;
+background-color: #e6ffe6;
+}
+
+.errorMsg {
+color: red;
+background-color: #ffe6e6;
+}
+
+/* Panneau d'aide */
+.helpPanel {
+background-color: #e9ecef;
+padding: 1rem;
+border-radius: 4px;
+margin-bottom: 1rem;
+}
+
+.helpPanel h3 {
+margin-top: 0;
+}
+
+/* Filtres */
+.filters {
+display: flex;
+gap: 1rem;
+flex-wrap: wrap;
+margin-bottom: 1rem;
+}
+
+.filters input[type="text"],
+.filters select {
+padding: 0.5rem;
+font-size: 1rem;
+border: 1px solid #ccc;
+border-radius: 4px;
+flex: 1;
+}
+
+.filters button {
+padding: 0.5rem 1rem;
+border: none;
+border-radius: 4px;
+background-color: #17a2b8;
+color: #fff;
+cursor: pointer;
+font-size: 1rem;
+}
+
+/* Grille des cours */
+.courseGrid {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows: repeat(2, 3);
+gap: 1rem;
+margin-bottom: 1rem;
+}
+
+/* Actions sur la carte */
+.courseActions {
+margin-top: 0.5rem;
+display: flex;
+flex-direction: column;
+gap: 0.5rem;
+}
+
+.actionBtn {
+width: auto; 
+border: none;
+border-radius: 4px;
+cursor: pointer;
+font-size: 1rem;
+}
+
+.modifyBtn {
+background-color: #ffc107;
+color: #000;
+}
+
+.deleteBtn {
+background-color: #dc3545;
+color: #fff;
+}
+
+.previewBtn {
+background-color: #17a2b8;
+color: #fff;
+}
+
+.actionGroup {
+display: flex;
+width: auto;
+gap: 0.5rem;
+margin-top: 0.5rem;
+}
+
+.validateBtn {
+background-color: #28a745;
+color: #fff;
+flex: 1;
+}
+
+.refuseBtn {
+background-color: #dc3545;
+color: #fff;
+flex: 1;
+}
+
+.requestBtn {
+background-color: #ffc107;
+color: #000;
+flex: 1;
+}
+
+/* Pagination */
+.pagination {
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 1rem;
+}
+
+.pagination button {
+padding: 0.5rem 1rem;
+border: none;
+border-radius: 4px;
+background-color: #007bff;
+color: #fff;
+cursor: pointer;
+font-size: 1rem;
+}
+
+.pagination button:disabled {
+background-color: #ccc;
+cursor: not-allowed;
+}
+
+/* Modal d'aperçu */
+.previewModal {
+margin: auto;
+padding: 1rem;
+background-color: #fff;
+border-radius: 4px;
+outline: none;
+}
+
+.previewOverlay {
+background-color: rgba(0, 0, 0, 0.5);
+position: fixed;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.modalContent h2 {
+margin-top: 0;
+}
+
+.previewImage {
+width: 100%;
+height: auto;
+object-fit: contain;
+margin-bottom: 1rem;
+}
+
+.closeModalBtn {
+background-color: #007bff;
+color: #fff;
+padding: 0.5rem 1rem;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+font-size: 1rem;
+}

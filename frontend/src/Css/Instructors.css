@@ -1,0 +1,66 @@
+/* Instructors.css */
+
+.sectionInstructors {
+  padding: 50px 0;
+  background-color: var(--Primary900-color);
+  text-align: center;
+}
+
+.containerInstructors {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.titleInstructors {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: var(--Secondary1-color);
+  text-shadow: #fffdfd78;
+  margin-bottom: 30px;
+}
+
+.cardContainerInstructors {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.instructor-card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 250px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.instructor-card:hover {
+  transform: translateY(-5px);
+}
+
+.instructor-image {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+.instructor-name {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #093B3B;
+}
+
+.instructor-expertise {
+  font-size: 1rem;
+  color: #666;
+}
+
+.instructor-students {
+  font-size: 0.9rem;
+  color: #333;
+  font-weight: 500;
+}

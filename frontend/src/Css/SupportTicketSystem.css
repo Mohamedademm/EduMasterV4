@@ -1,0 +1,78 @@
+.support-ticket-system {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f4f4f4;
+  }
+  
+  h1 {
+    color: var(--Primary900-color);
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .ticket-form {
+    margin-bottom: 30px;
+  }
+  
+  .ticket-form textarea {
+    width: 100%;
+    height: 150px;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .ticket-form .form-controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .ticket-form .form-controls label {
+    font-size: 0.9rem;
+  }
+  
+  .ticket-form .form-controls select,
+  .ticket-form .form-controls button {
+    padding: 5px;
+    font-size: 1rem;
+    margin-left: 10px;
+  }
+  
+  .ticket-form button {
+    background-color: var(--Secondary2-color);
+    color: #22093B;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .ticket-form button:hover {
+    background-color: var(--Secondary3-color);
+  }
+  
+  .ticket-list h2 {
+    font-size: 1.5rem;
+    color: #136E61;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #136E61;
+    color: #fff;
+  }
+  

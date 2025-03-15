@@ -1,0 +1,98 @@
+.SectionCertCertification {
+  padding: 60px 0;
+  background-color: transparent;
+  text-align: center;
+}
+
+.ContainerCertCertification {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.TitleCertCertification {
+  font-size: 2.9rem;
+  color: var(--White-color);
+  margin-bottom: 20px;
+}
+
+.CardContainerCertCertification {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  justify-content: center;
+}
+
+.CardCertCertification {
+  background-color: #295959;
+  border-radius: 12px;
+  padding: 25px;
+  text-align: center;
+  box-shadow: 0px 5px 8px var(--White-color);
+  transition: transform 0.3s ease-in-out;
+  position: relative;
+}
+
+.CardCertCertification:hover {
+  transform: translateY(-8px);
+}
+
+.CardTitleCertCertification {
+  font-size: 20px;
+  color: var(--White-color);
+  margin-bottom: 15px;
+  margin-top: 5%;
+  position: relative;
+  text-align: left; /* Aligne le texte à gauche */
+}
+
+/* Conteneur des images */
+.ImageContainerCertCertification {
+  position: absolute;
+  top: 10px;
+  left: auto; /* Place l'image à gauche */
+  width: 30px; /* Réduit la taille de l'image */
+  height: 30px;
+  padding: 5%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+/* Assignation des images à chaque certification */
+.Certification1 .ImageContainerCertCertification {
+  background-image: url('../images/Vector.png');
+}
+
+.Certification2 .ImageContainerCertCertification {
+  background-image: url('../images/Vector1.png');
+}
+
+.Certification3 .ImageContainerCertCertification {
+  background-image: url('../images/Vector2.png');
+}
+
+.CardDescriptionCertCertification {
+  font-size: 1rem;
+  color: var(--gray2-color);
+  margin-bottom: 15px;
+}
+
+.CardButtonCertCertification {
+  background-color: var(--Secondary2-color);
+  color: var(--Primary900-color);
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background-color 0.3s;
+}
+
+.CardButtonCertCertification:hover {
+  background-color: var(--Primary700-color);
+  color: var(--White-color);
+}
+
+.FeaturedCertCertification {
+  border: 2px solid var(--Secondary2-color);
+}

@@ -1,0 +1,51 @@
+.cloudSoftwareSectionCS {
+  padding: 50px 0;
+  background-color: var(--Primary900);
+}
+
+.cloudSoftwareContainerCS {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.cloudSoftwareTitleCS {
+  font-size: 2rem;
+  color: var(--Secondary1-color);
+  box-shadow: var(--White-color);
+  text-shadow: var(--White-color);
+  margin-bottom: 30px;
+}
+
+.featureCardContainerCS {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.featureCardCS {
+  background-color: var(--Secondary3);
+  border-radius: 8px;
+  box-shadow: -10px 10px 1px var(--White-color, 0.2);
+  width: 280px;
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s ease;
+  position: relative;
+}
+
+.featureCardCS:hover {
+  transform: translateY(-10px);
+}
+
+.featureTitleCS {
+  font-size: 1.5rem;
+  color: var(--White-color);
+  margin-bottom: 10px;
+}
+
+.featureDescriptionCS {
+  font-size: 1rem;
+  color: #777;
+  margin-bottom: 20px;
+}

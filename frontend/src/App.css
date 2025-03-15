@@ -1,0 +1,50 @@
+/*caret svg {
+    opacity: 0;
+    width: 75%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    stroke-width: 3;
+    stroke: white;
+}
+    
+    .form-group {
+    display: grid;    
+    gap: 0.5rem;
+    }
+
+    .form-group: focus-within;
+    .caret {
+    animation: none; 
+    }
+
+    .input-wrapper--dirty {
+        position: relative; 
+        }
+    
+    .caret.progress {
+    background:hsi(228, 100%,69%);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    inset: 0;
+    inset(calc(100% -(var(--strenght , 0)
+    *1%))0 0 0);
+    transition: clip-path 0.15s;
+    }
+
+    .input wrapper {
+    position: relative;
+}
+    
+    
+    .form-group:not(
+    :focus-within)
+    .input-wrapper--dirty{
+        position: relative;
+
+    }
+    
+    
+     */

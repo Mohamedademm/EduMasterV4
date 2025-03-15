@@ -1,0 +1,50 @@
+.paiements-container {
+  padding: 20px;
+  background-color: var(--gray3-color);
+  min-height: 100vh;
+}
+
+.titre {
+  color: var(--Primary900-color);
+  margin-bottom: 20px;
+}
+
+.filtre {
+  margin-bottom: 20px;
+  width: 250px;
+}
+
+.table-container {
+  background: var(--White-color);
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+button {
+  font-weight: bold;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+/* Adding specific styling for button containers */
+.MuiButton-root {
+  text-transform: none;
+  padding: 8px 16px;
+  font-weight: 500;
+  color: #fff;
+}
+
+.MuiButton-containedError {
+  background-color: #f44336; /* Red */
+}
+
+.MuiButton-containedPrimary {
+  background-color: #1976d2; /* Blue */
+}
+
+.MuiButton-root.MuiButton-contained:hover {
+  opacity: 0.9;
+}

@@ -1,0 +1,110 @@
+.topPicksSection {
+  padding: 50px 0;
+  background-color: var(--White-color);
+}
+
+.topPicksContainer {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.topPicksTitle {
+  font-size: 2rem;
+  color: var(--Primary900-color);
+  margin-bottom: 30px;
+}
+
+.courseCardContainer {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.courseCardCC {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 280px;
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s ease;
+  position: relative;
+}
+
+.courseCardCC:hover {
+  transform: translateY(-10px);
+}
+
+.courseIconCC {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 20px;
+  background-size: cover;
+  background-position: center;
+}
+
+/* Images de fond pour chaque course */
+.courseCardCC:nth-child(1) .courseIconCC {
+  background-image: url('../images/website_design.png');
+}
+
+.courseCardCC:nth-child(2) .courseIconCC {
+  background-image: url('../images/Photoshop.png');
+}
+
+.courseCardCC:nth-child(3) .courseIconCC {
+  background-image: url('../images/wordpress.png');
+}
+
+.courseTitleCC {
+  font-size: 1.5rem;
+  color: var(--Primary700-color);
+  margin-bottom: 10px;
+}
+
+.courseDescriptionCC {
+  font-size: 1rem;
+  color: #777;
+  margin-bottom: 20px;
+}
+
+.exploreContainerCC {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.exploreTextCC {
+  font-size: 1rem;
+  color: var(--Primary700-color);
+  margin-right: 10px;
+}
+
+.exploreIconContainerCC {
+  width: 20px;
+  height: 20px;
+  background-image: url('../images/fleche-droite.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.discoverMoreContainer {
+  margin-top: 40px;
+}
+
+.discoverMoreButton {
+  background-color: var(--Primary700-color);
+  color: var(--White-color);
+  border: none;
+  padding: 12px 30px;
+  font-size: 1rem;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.discoverMoreButton:hover {
+  background-color: var(--Primary900-color);
+}

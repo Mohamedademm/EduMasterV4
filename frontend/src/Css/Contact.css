@@ -1,0 +1,124 @@
+
+.contact-section {
+  background:  var(--Primary900-color);
+  color: var(--White-color);
+  text-align: center;
+  padding: 20px;
+  font-size: 15px;
+  font-weight: 700;
+  box-shadow: 0px -2px 10px rgba(0, 0, 0, 0.2);
+  width: 95%;
+  border-radius: 50px;
+  margin: 0 auto; /* Centrer horizontalement */
+  margin-top: 2%;
+  margin-block-end: 2%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.contact-container {
+  max-width: 1200px;
+  display: flex;
+  justify-content: center; /* Centrer horizontalement */
+  align-items: center; /* Centrer verticalement */
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.contact-info {
+  flex: 1;
+  min-width: 300px;
+}
+
+.contact-info p {
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: var(--Secondary3-color);
+}
+
+.contact-details h4 {
+  font-size: 22px;
+  margin-bottom: 10px;
+  color: var(--Secondary2-color);
+}
+
+.contact-details p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.contact-form {
+  flex: 1;
+  min-width: 300px;
+  background-color: var(--Primary700-color);
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.contact-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 26px;
+  color: var(--White-color);
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  font-size: 16px;
+  margin-bottom: 8px;
+  color: var(--Secondary3-color);
+}
+
+.form-group input,
+.form-group textarea {
+  width: 86%;
+  padding: 12px;
+  border-radius: 6px;
+  border: 1px solid var(--gray2-color);
+  background-color: var(--Gray1-color);
+  color: var(--White-color);
+  font-size: 16px;
+}
+
+.form-group textarea {
+  resize: none;
+  height: 120px;
+}
+
+buttoncontact {
+  display: block;
+  width: 90%;
+  padding: 12px;
+  font-size: 18px;
+  color: var(--Primary900-color);
+  background-color: var(--Secondary2-color);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background-color: var(--Secondary1-color);
+  color: var(--White-color);
+}
+
+@media (max-width: 768px) {
+  .contact-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .contact-form {
+    width: 100%;
+  }
+}
